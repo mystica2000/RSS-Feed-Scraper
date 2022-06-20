@@ -1,10 +1,14 @@
 A Simple Web Scraper which returns the URL of RSS Feed of the given Website.
 
-To install **dependencies**,
+- git clone
 
-run ```go tidy webscraper```
+- To install **dependencies**,
 
+    - run ```go tidy```
 
-To run **tests**,
+- To run **tests**,
 
-```go test -v```
+   - ```go test -v```
+
+- To run **main**,
+   - ```go run main.go```
