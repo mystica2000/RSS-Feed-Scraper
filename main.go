@@ -29,7 +29,7 @@ func FindRSSFeed(webURL string) string {
 	// 	c.SetProxyFunc(p)
 	// }
 
-	str := "Cannot be retreived";
+	str := "Cannot be retreived"; // Some sites don't allow to scrape content
 	
 	c.OnRequest(func(r *colly.Request){{
 		fmt.Println("visiting", r.URL.String())
