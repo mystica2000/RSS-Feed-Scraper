@@ -4,7 +4,7 @@ A Simple Web Scraper which returns the URL of RSS Feed of the given Website.
 
 - To install **dependencies**,
 
-    - run ```go tidy```
+    - run ```go mod tidy```
 
 - To run **tests**,
 
